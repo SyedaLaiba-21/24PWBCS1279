@@ -1,0 +1,75 @@
+.gradient-text {
+font-size: 40px;
+font-weight: bold;
+background: linear-gradient(to right, red, blue);
+color: transparent;
+background-clip: text; 
+}
+.image-text {
+display: inline-block; 
+width: 100%;            
+font-size: 50px;
+font-weight: bold;
+color: white;
+background: url("https://picsum.photos/1200/300") no-repeat center;
+background-size: cover;
+padding: 20px 0;
+text-align: center; 
+}
+.custom-check{
+position:relative;
+padding-left:30px;
+cursor:pointer;
+}
+.custom-check input{
+display:none;
+}
+.checkmark{
+position:absolute;
+left:0;
+top:0;
+width:20px;
+height:20px;
+background:#ccc;
+}
+.custom-check input:checked + .checkmark{
+background:#0077cc;
+}
+.custom-radio{
+position:relative;
+padding-left:30px;
+cursor:pointer;
+display:block;
+}
+.custom-radio input{
+display:none;
+}
+.radiomark{
+position:absolute;
+left:0;
+top:0;
+width:20px;
+height:20px;
+background:#ccc;
+border-radius:50%;
+}
+.custom-radio input:checked + .radiomark{
+background:#0077cc;
+}
+.loader{
+width:40px;
+height:40px;
+border:5px solid #ccc;
+border-top:5px solid #0077cc;
+border-radius:50%;
+animation:spin 1s linear infinite;
+}
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+.shadow-text{
+font-size:35px;
+color:#333;
+text-shadow:2px 2px 0 red, 4px 4px 0 blue, 6px 6px 0 purple;
+}

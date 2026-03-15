@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.transform-box{
+    width:150px;
+    height:100px;
+    margin:20px 0;
+    background-color: #3498db;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.translate{
+    transform: translateX(30px);
+}
+.rotate{
+    transform: rotate(15deg);
+}
+.scale{
+    transform: scale(1.2);
+}
+.skew{
+    transform: skew(20deg, 10deg);
+}
+
+.hover-box{
+    width:150px;
+    height:100px;
+    background-color:#e74c3c;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform-origin: center;
+    margin:20px 0;
+}
+.hover-box:hover{
+    transform: scale(1.2) rotate(10deg);
+    background-color:#c0392b;
+}

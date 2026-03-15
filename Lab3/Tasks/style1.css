@@ -1,0 +1,55 @@
+h1{
+    color:darkblue;
+}
+.text{
+    color:green;
+}
+#mainHeading{
+    text-align: center;
+}
+*{
+    font-family: 'Arial';
+}
+div p{
+    color:red;
+}
+input[type="text"]{
+    border: 2px solid blue;
+}
+a[target="_blank"]{
+    color:purple;
+}
+input[type*="check"]{
+    transform:scale(1.5);
+}
+div p{
+    background: #eee;
+}
+ul>li{
+    color:orange;
+}
+h1+p{
+    font-weight: bold;
+}
+h1 ~ p{
+    border: 1px solid black;
+}
+a:hover{
+    color:red;
+}
+li:first-child{
+    color:blue;
+}
+li:last-child{
+    color:green;
+}
+li:nth-child(2){
+    font-style: 'italic';
+}
+input:focus{
+    background: lightyellow;
+}
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}

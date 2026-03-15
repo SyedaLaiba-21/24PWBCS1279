@@ -1,0 +1,37 @@
+a:link{
+color: blue;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: red;
+}
+a:active{
+color: green;
+}
+input:focus{
+background-color: lightyellow;
+}
+input:disabled{
+background-color: lightgray;
+}
+input:checked{
+accent-color: green;
+}
+li:first-child{
+color: red;
+}
+li:last-child{
+color: blue;
+}
+li:nth-child(2){
+background-color: lightgreen;
+}
+p:empty{
+background-color: yellow;
+height:20px;
+}
+p:not(.special){
+color: brown;
+}

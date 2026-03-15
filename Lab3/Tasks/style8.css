@@ -1,0 +1,58 @@
+.navbar{
+background:#333;
+padding:10px;
+}
+.nav-horizontal{
+list-style:none;
+margin:0;
+padding:0;
+display:flex;
+}
+.nav-horizontal li{
+position:relative;
+}
+.nav-horizontal a{
+display:block;
+padding:10px 15px;
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+.nav-horizontal a:hover{
+background:#0077cc;
+}
+.nav-horizontal .active{
+background:#005fa3;
+}
+.dropdown-menu{
+display:none;
+position:absolute;
+background:#444;
+list-style:none;
+padding:0;
+top:40px;
+min-width:150px;
+}
+.dropdown-menu li a{
+padding:10px;
+}
+.dropdown:hover .dropdown-menu{
+display:block;
+}
+.nav-vertical{
+width:200px;
+list-style:none;
+padding:0;
+}
+.nav-vertical li a{
+display:block;
+padding:10px;
+background:#eee;
+margin-bottom:5px;
+text-decoration:none;
+color:black;
+transition:0.3s;
+}
+.nav-vertical li a:hover{
+background:#ccc;
+}

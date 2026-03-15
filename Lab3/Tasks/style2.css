@@ -1,0 +1,18 @@
+.font1{
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+.font2{
+    font-family: 'Lobster';
+    font-size: 3rem;
+}
+.font3{
+    font-family: 'Montserrat';
+    font-size: 150%;
+}
+.textDemo{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px gray;
+}

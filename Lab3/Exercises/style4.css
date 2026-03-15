@@ -1,0 +1,13 @@
+div p{
+color: blue;
+}
+div > h3{
+color: red;
+}
+h2 + p{
+background-color: lightyellow;
+}
+h2 ~ span{
+color: green;
+font-weight: bold;
+}

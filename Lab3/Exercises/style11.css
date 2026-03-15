@@ -1,0 +1,54 @@
+body{
+font-family: Arial;
+}
+.multiple-bg{
+width:250px;
+height:200px;
+margin:20px;
+padding:10px;
+border:2px solid black;
+background-image: url("image1.jpg"), url("image2.jpg");
+background-position: left top, right bottom;
+background-repeat: no-repeat, no-repeat;
+background-size:120px,120px;
+}
+.linear-gradient{
+width:250px;
+height:200px;
+margin:20px;
+padding:10px;
+border:2px solid black;
+background: linear-gradient(to right, red, yellow);
+}
+.radial-gradient{
+width:250px;
+height:200px;
+margin:20px;
+padding:10px;
+border:2px solid black;
+background: radial-gradient(circle, blue, lightblue);
+color:white;
+}
+.blend-mode{
+width:250px;
+height:200px;
+margin:20px;
+padding:10px;
+border:2px solid black;
+background-image: url("image1.jpg");
+background-color: rgba(255,0,0,0.5);
+background-blend-mode: multiply;
+background-size: cover;
+color:white;
+}
+.clip-origin{
+width:250px;
+height:200px;
+margin:20px;
+padding:20px;
+border:10px solid black;
+background-image: url("image2.jpg");
+background-size: cover;
+background-clip: content-box;
+background-origin: content-box;
+}

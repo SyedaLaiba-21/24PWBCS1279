@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.dimension{
+    width:300px;
+    height:200px;
+    object-fit: cover;
+    margin:20px 0;
+}
+.border-radius{
+    width:250px;
+    height:200px;
+    border:5px solid #3498db;
+    border-radius:20px;
+    margin:20px 0;
+}
+.object-fit{
+    width:300px;
+    height:200px;
+    object-fit: contain;
+    object-position: top right;
+    border:2px solid black;
+    margin:20px 0;
+}
+.filter{
+    width:300px;
+    height:200px;
+    filter: grayscale(50%) brightness(120%);
+    margin:20px 0;
+}

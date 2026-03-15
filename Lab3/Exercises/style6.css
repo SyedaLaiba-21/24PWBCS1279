@@ -1,0 +1,22 @@
+h2::before{
+content:"* ";
+color:red;
+}
+h2::after{
+content:" *";
+color:red;
+}
+p::first-letter{
+font-size:30px;
+color:blue;
+}
+p::first-line{
+font-weight:bold;
+}
+::selection{
+background-color: yellow;
+color: black;
+}
+p:hover::first-letter{
+color:red;
+}

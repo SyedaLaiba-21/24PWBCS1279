@@ -1,0 +1,18 @@
+.line-height{
+line-height:1.8;
+}
+.spacing{
+letter-spacing:2px;
+word-spacing:10px;
+}
+.indent{
+text-indent:40px;
+white-space:normal;
+}
+.overflow{
+width:250px;
+border:1px solid black;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}

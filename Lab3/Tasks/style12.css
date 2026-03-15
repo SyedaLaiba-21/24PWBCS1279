@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+h1, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #2980b9;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #d1ecf1;
+    }
+td {
+    font-weight: 500;
+}
+td:contains("Web Technologies") {
+    background-color: #ffebcc;
+}
+td:contains("Data Structures") {
+    background-color: #cce5ff;
+}
+td:contains("Operating Systems") {
+    background-color: #d5f5e3;
+}
+td:contains("Statistics") {
+    background-color: #f9e79f;
+}
+td:contains("Management") {
+    background-color: #f5b7b1;
+}
+td:contains("Automata") {
+    background-color: #d7bde2;
+}
+
+        td:contains("Web Lab") {
+            background-color: #aed6f1;
+        }
+
+        td:contains("Data Structures Lab") {
+            background-color: #a9dfbf;
+        }
+
+        td:contains("Free Period") {
+            background-color: #e5e7e9;
+        }
+
+        td[colspan] {
+            font-weight: bold;
+            background-color: #f8c471;
+        }
+
+        /* Responsive Table */
+        @media screen and (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            th {
+                position: sticky;
+                top: 0;
+                background-color: #2980b9;
+                color: white;
+            }
+
+            tr {
+                margin-bottom: 15px;
+            }
+
+            td {
+                text-align: right;
+                padding-left: 50%;
+                position: relative;
+            }
+
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 15px;
+                width: calc(50% - 30px);
+                text-align: left;
+                font-weight: bold;
+            }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #2980b9;
+        }
+
+        footer a:hover {
+            color: #e74c3c;
+        }
