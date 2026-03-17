@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="exercise6.css">
+<title>Exercise 6</title>
+</head>
+<body>
+<h2>Overlapping Elements with Z-Index</h2>
+<div class="overlap">
+<div class="box box1">Flower 1</div>
+<div class="box box2">Flower 2</div>
+<div class="box box3">Flower 3</div>
+</div>
+<h2>Modal Dialog</h2>
+<button class="modal-btn">Open Modal</button>
+<div class="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<p>This is a modal dialog showing beautiful garden tips.</p>
+</div>
+</div>
+<h2>Sticky Navigation Header</h2>
+<div class="sticky-nav">Garden Navigation</div>
+<p>Scroll down to see sticky navigation stay in place while content moves.</p>
+<p>Flowers bloom in different colors and shapes, making every garden unique and lively.</p>
+<h2>Tooltips and Dropdown Menus</h2>
+<div class="tooltip">Hover over me
+<span class="tooltip-text">This rose symbolizes love and beauty</span>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Select Flower</button>
+<div class="dropdown-content">
+<a href="#">Rose</a>
+<a href="#">Tulip</a>
+<a href="#">Sunflower</a>
+</div>
+</div>
+<br>
+<a href="index.html" class="home-btn">Back to Home</a>
+<script>
+const modal = document.querySelector('.modal');
+const btn = document.querySelector('.modal-btn');
+const span = document.querySelector('.close');
+btn.onclick = ()=>{modal.style.display='block';}
+span.onclick = ()=>{modal.style.display='none';}
+window.onclick = e=>{if(e.target==modal) modal.style.display='none';}
+</script>
+</body>
+</html>

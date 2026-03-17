@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #2c3e50;
+}
+
+.tasks{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tasks h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2980b9;
+    font-size: 28px;
+}
+
+.task-btn{
+    display: block;
+    text-decoration: none;
+    color: #16a085;
+    background-color: white;
+    padding: 12px 18px;
+    margin: 10px 0; /* spacing between buttons */
+    border-radius: 6px;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+.task-btn:hover{
+    background-color: #16a085;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Optional: Different color themes for different task classes */
+.task1{border-left: 5px solid #e74c3c;}
+.task2{border-left: 5px solid #2980b9;}
+.task3{border-left: 5px solid #16a085;}
+.task4{border-left: 5px solid #8e44ad;}
+.task5{border-left: 5px solid #f39c12;}
+.task6{border-left: 5px solid #d35400;}
+.task7{border-left: 5px solid #3498db;}
+.task8{border-left: 5px solid #27ae60;}
+.task9{border-left: 5px solid #8e44ad;}
+.task10{border-left: 5px solid #27ae60;}
+.task11{border-left: 5px solid #e74c3c;}
+.task12{border-left: 5px solid #2980b9;}
+.task13{border-left: 5px solid #16a085;}
+.task14{border-left: 5px solid #8e44ad;}
+.task15{border-left: 5px solid #f39c12;}
+.task16{border-left: 5px solid #d35400;}
+.task17{border-left: 5px solid #3498db;}
+.task18{border-left: 5px solid #27ae60;}

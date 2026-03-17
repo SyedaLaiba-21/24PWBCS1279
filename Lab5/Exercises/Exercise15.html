@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="exercise15.css">
+<title>Exercise 15</title>
+</head>
+<body>
+<h2>Responsive Image with srcset</h2>
+<img src="image1.jpg" srcset="image1.jpg 480w, image1-medium.jpg 800w, image3.jpg 1200w" sizes="(max-width:600px) 480px, (max-width:1024px) 800px, 1200px" alt="Beautiful Garden">
+
+<h2>Picture Element for Art Direction</h2>
+<picture>
+<source media="(max-width:600px)" srcset="image2-small.jpg">
+<source media="(max-width:1024px)" srcset="image2-medium.jpg">
+<img src="image2.jpg" alt="Colorful Flowers">
+</picture>
+
+<h2>Responsive Background Image</h2>
+<div class="bg-image">Flower Garden Background</div>
+
+<h2>Optimized Images for Different Screen Densities</h2>
+<img src="image1.jpg" srcset="image1.jpg 1x, image1.jpg 2x" alt="Sunflowers">
+
+<a href="index.html" class="home-btn">Back to Home</a>
+</body>
+</html>

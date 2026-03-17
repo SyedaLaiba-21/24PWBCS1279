@@ -1,0 +1,56 @@
+/* Mobile-first base styles */
+.box{
+background-color:#16a085;
+color:white;
+padding:15px;
+margin:10px;
+text-align:center;
+}
+.tablet-box{
+background-color:#2980b9;
+color:white;
+padding:15px;
+margin:10px;
+text-align:center;
+}
+.desktop-box{
+background-color:#8e44ad;
+color:white;
+padding:15px;
+margin:10px;
+text-align:center;
+}
+/* Tablet styles */
+@media(min-width:600px){
+.box{
+display:flex;
+justify-content:space-around;
+}
+.tablet-box{
+display:flex;
+gap:10px;
+}
+}
+/* Desktop styles */
+@media(min-width:992px){
+.box{
+display:flex;
+gap:20px;
+}
+.tablet-box{
+flex-wrap:wrap;
+}
+.desktop-box{
+display:flex;
+gap:15px;
+justify-content:space-between;
+}
+}
+.home-btn{
+display:inline-block;
+margin:20px;
+padding:10px 15px;
+background-color:#16a085;
+color:white;
+text-decoration:none;
+}

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f8e9;
+  color: #333;
+}
+
+header {
+  background-color: #558b2f;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.utility-demo {
+  padding: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Box styles for demonstration */
+.box {
+  background-color: #aed581;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Visibility Utilities (Mobile First) */
+.show-mobile { display: block; }
+.show-tablet, .show-desktop { display: none; }
+
+@media (min-width: 768px) {
+  .show-mobile { display: none; }
+  .show-tablet { display: block; }
+}
+
+@media (min-width: 1024px) {
+  .show-tablet { display: none; }
+  .show-desktop { display: block; }
+}
+
+/* Spacing Utilities (Margin m-1 to m-3, Padding p-1 to p-3) */
+.m-1 { margin: 0.5rem !important; }
+.m-2 { margin: 1rem !important; }
+.m-3 { margin: 1.5rem !important; }
+.p-1 { padding: 0.5rem !important; }
+.p-2 { padding: 1rem !important; }
+.p-3 { padding: 1.5rem !important; }
+
+/* Text Alignment Utilities */
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+
+/* Flexbox Utilities */
+.d-flex { display: flex !important; }
+.flex-column { flex-direction: column !important; }
+.flex-row { flex-direction: row !important; }
+.justify-start { justify-content: flex-start !important; }
+.justify-center { justify-content: center !important; }
+.justify-end { justify-content: flex-end !important; }
+.align-start { align-items: flex-start !important; }
+.align-center { align-items: center !important; }
+.align-end { align-items: flex-end !important; }
+
+/* Flex direction for medium screens and up */
+@media (min-width: 768px) {
+  .flex-row-md { flex-direction: row !important; }
+}
+
+/* Back to Home Button */
+.back-home {
+  display: block;
+  width: max-content;
+  margin: 2rem auto;
+  padding: 0.8rem 1.5rem;
+  background-color: #558b2f;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.back-home:hover {
+  background-color: #33691e;
+}
